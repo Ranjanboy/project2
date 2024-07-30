@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "gilroy";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#containar{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: brown;
+    position: relative;
+    overflow: hidden;
+}
+
+body{
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+#containar i{
+    color: #fff;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0);
+    opacity: 0;
+    transition: transform ease 0.4s;
+
+}
+
